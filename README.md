@@ -13,7 +13,7 @@ CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'database_user'@'localhost';
 ```
 
-## Backend
+## AdonisJS Backend
 Install AdonisJS dependency
 ```
 cd  ..\back
@@ -32,12 +32,12 @@ adonis serve --dev
 adonis route:list
 ```
 
-## Frontend
-Setup NextJS:
+## NextJS Frontend
+Setup NextJS
 ```
 cd ../front
 npm i
 npm run dev
 ```
 
-Modify from: [https://github.com/Zapodask/Nextjs-Adonisjs_auth-acl]
+Modify from: [Zapodask](https://github.com/Zapodask/Nextjs-Adonisjs_auth-acl)
